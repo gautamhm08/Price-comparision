@@ -1,0 +1,224 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the container */
+    padding: 20px;
+    background: #e3e3e2;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center within its parent */
+    max-width: 600px; /* Adjust as needed */
+    width: 100%;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Search form styling */
+.search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search input styling */
+.search-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 60%;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Search input hover effect */
+.search-form input[type="text"]:hover {
+    transform: scale(1.05); /* Pop-up effect */
+}
+
+/* Search button styling */
+.search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Search button hover effect */
+.search-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Pop-up effect */
+}
+
+/* Product image styling */
+.product-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Product image hover effect */
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Product image hover effect */
+.product-image img:hover {
+    transform: scale(1.05); /* Pop-up effect */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table cell styling */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Vendor logo styling */
+.vendor-logo {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Vendor logo hover effect */
+.vendor-logo:hover {
+    transform: scale(1.05); /* Pop-up effect */
+}
+
+/* Form container styling */
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Form container heading styling */
+.form-container h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Form container form styling */
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form container input styling */
+.form-container input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+/* Form container input focus effect */
+.form-container input:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+/* Form container button styling */
+.form-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Form container button hover effect */
+.form-container button:hover {
+    background: #1a59cc;
+    transform: scale(1.05); /* Pop-up effect */
+}
+
+/* Form container paragraph styling */
+.form-container p {
+    margin-top: 1rem;
+    color: #666;
+}
+
+/* Form container paragraph link styling */
+.form-container p a {
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Form container paragraph link hover effect */
+.form-container p a:hover {
+    color: #1a59cc;
+}
+
+/* Alert box styling */
+.alert {
+    background: #ff4d4d;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
